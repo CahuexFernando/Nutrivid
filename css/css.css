@@ -42,3 +42,56 @@ section{
     margin-top: 17px;
 }
 /******************************************************************/
+/* Formulario */
+
+.Contenedor1_For{
+    width: 375px;
+    height: 667px;
+    padding-top:52px;
+}
+.mascarilla1{
+        width: 128px;
+        height: 128px;
+        margin:auto;
+}
+.Caja-Form {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 41px;
+}
+.Caja-Form label {
+    font-size: 20px;
+    margin-top: 10px;
+    color:  #797979;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-nombres{
+    width: 294px;
+    height: 26px;
+    border-style: none;
+}
+
+.Caja-Form input {
+    height: 34px;
+    padding-bottom: 10px;
+    background-color: #52C6D9 ;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+button{
+    width: 133px;
+    height: 36px;
+    margin-top: 49px;
+    margin-left: 75px;
+    border-radius: 20px ;
+    color:  #797979;
+    border-style: #52C6D9;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    border: 3px solid #52C6D9;
+
+}
