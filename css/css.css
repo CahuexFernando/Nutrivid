@@ -13,6 +13,7 @@ section{
     width:  375px;
     margin: auto;
 }
+
 /****************************************************************/
 /* Seccion Home Page */
 
@@ -249,15 +250,71 @@ section{
     background: rgb(91,188,255);
     background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
 }
+/*
 .Cabecera1-IMCinfo{
-    width: 375px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+    
+    background-color: cornflowerblue;
+   
+   
+    /*width: 375px;
     height: 70px;
-    background-color: #ffffff;
+    background-color: cornflowerblue;
     border-radius: 0px 0px 20px 20px;
     padding-top: 12px;
     display: flex;
     flex-direction: row;
 }
+
+.ham{
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+.ham span{
+    display: none;
+    display: block;
+    background-color: green;
+    height: 3px;
+    width: 28px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+.enlaces-menu{
+    flex-direction: column;
+    justify-content: space-around;  
+    align-items: center; 
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: none;
+
+}
+.enlaces-menu li{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    padding: 0 5px;
+    list-style-type: none;
+    transition: 0.3s;
+}
+.enlaces-menu li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.enlaces-menu li:hover{
+    background-color: grey;
+}
+.enlaces-menu.activado{
+    display: flex;
+}
+*/
 .BottonL{
     margin-top: 10px;
     margin-left: 13px;

@@ -29,24 +29,25 @@
                 <p>¿Qué es y para qué nos sirve?</p>
             </div>
             <div class="CajaforIMC_Calcu">
-                    <div class="Cajaform_Calcu">
-                    <label for="Nombre">
+                    <form class="Cajaform_Calcu" id="primero">
+                    <label for="edad">
                         ¿Cuál es tu edad?
-                        <input  type="text"  class="input-nombres" name="Nombre" id="inputNombre1">
+                        <input  type="text"  class="input-nombres" name="edad" id="txtedad">
                     </label>
         
-                    <label class="Nombre1" for="Nombre">
+                    <label  for="peso">
                         ¿Cuál es tu peso en? (kg)
-                        <input type="text"  class="input-nombres" name="Nombre" id="inputNombre1">
+                        <input type="text"  class="input-nombres" placeholder="Peso en kilogramos" name="peso" id="txtpeso">
                     </label>
         
-                    <label for="Nombre">
+                    <label for="altura">
                         ¿Cuanto mides? (Cm)
-                        <input type="text"  class="input-nombres" name="Nombre" id="inputNombre1">
+                        <input type="text"  class="input-nombres" placeholder="Altura en metros" name="altura" id="txtaltura">
                     </label> 
-                </div> 
-                 <button class="b_IMCcalcu" id="btncalcular">Enviar</button>
-                </div>
+    
+                 <button class="b_IMCcalcu" id="btncalcular">Calcular</button>
+                </form> 
+            </div>
         
     </section>
 
