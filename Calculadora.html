@@ -18,49 +18,53 @@
 <body>
 
     <section class="contenedor1_calcu">
-        <div class="Cabecera1-IMCinfo">
-            <div class="BottonL">
-                <img src="https://images-ext-1.discordapp.net/external/d3FujjRJoupqVYYe89sDYTnzhcPfQpPWAagqSBk2X2M/https/i.imgur.com/Icogw8c.png">
-            </div>
-            <div class="Mascarrila-covid1">
-                <img src="https://cdn.discordapp.com/attachments/748542917366513774/892064716598427738/NobQR30__3_-removebg-preview_2.png" alt=""></div>
-            </div>
+        <nav class="Cabecera1-IMCinfo">
+          
+            <ul class="enlaces-menu">
+                <li><a href="#">Covid-19</a></li>
+                <li><a href="#">IMC</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Incio</a></li>
+            </ul>
+        <button class="ham" type="button">
+            <span class="br-1"></span>
+            <span class="br-2"></span>
+            <span class="br-3"></span>
+        </button>      
+    <div class="Mascarrila-covid1">
+    <img src="https://images-ext-1.discordapp.net/external/kEjIqYep-vWvFEv_pU682FROGXQdJDEkB7p-gQEfWzc/https/i.imgur.com/OhLEYRz.png" alt=""></div>
+</nav>
             <div class="CajaTexto1_Calcu">
-                <p>¿Qué es y para qué nos sirve?</p>
+                <p>Hora de </br> calcular tu IMC</p>
             </div>
-            <div class="CajaforIMC_Calcu">
-                    <div class="Cajaform_Calcu">
-                    <label for="Nombre">
-                        ¿Cuál es tu edad?
-                        <input 
-                        type="text"  
-                        class="input-nombres" 
-                        name="Nombre" 
-                        id="inputNombre1">
-                    </label>
+
+        <div class="sect_fo_v">
+            <form  class="login"  id="boton">
         
-                    <label class="Nombre1" for="Nombre">
-                        ¿Cuál es tu peso en? (kg)
-                        <input 
-                        type="text"  
-                        class="input-nombres" 
-                        name="Nombre" 
-                        id="inputNombre1">
-                    </label>
-        
-                    <label for="Nombre">
-                        ¿Cuanto mides? (Cm)
-                        <input 
-                        type="text"  
-                        class="input-nombres" 
-                        name="Nombre" 
-                        id="inputNombre1">
-                    </label> 
-                </div> 
-                 <button class="b_IMCcalcu">Enviar</button>
-                </div>
+                <label class="primero" for="edad"> ¿Cuál es tu edad?
+                  <input type="text" name="edad" 
+                  class="Edad" id="Edad">
+                </label>
+       
+                <label class="segundo" for="peso"> ¿Cuál es tu peso? (kg)
+                   <input type="text" name="peso" 
+                   class="PesoA" id="PesoA">
+                 </label>
+       
+                 <label class="tercero" for="altura"> ¿Cuál es tu altura? (Cm)
+                   <input type="text" name="altura" 
+                   class="Altura1" id="Altura1">
+                 </label>
+       
+                 <button class="bot"> <p>Enviar</p> </button >
+                  <div class="mensaje" id="respuestas"><p></p>´
+                    
+               </form>
+        </div>
         
     </section>
 
+    <script src="js/imc.js"></script>
+    <script src="js/js.js"></script>
 </body>
 </html>

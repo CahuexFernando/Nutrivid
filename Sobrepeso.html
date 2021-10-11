@@ -18,13 +18,22 @@
 <body>
 
     <section class="contenedor1_Sobrepeso">
-        <div class="Cabecera1-IMCinfo">
-            <div class="BottonL">
-                <img src="https://images-ext-1.discordapp.net/external/d3FujjRJoupqVYYe89sDYTnzhcPfQpPWAagqSBk2X2M/https/i.imgur.com/Icogw8c.png">
-            </div>
-            <div class="Mascarrila-covid1">
-                <img src="https://cdn.discordapp.com/attachments/748542917366513774/892064716598427738/NobQR30__3_-removebg-preview_2.png" alt=""></div>
-            </div>
+        <nav class="Cabecera1-IMCinfo">
+          
+            <ul class="enlaces-menu">
+                <li><a href="Covid19.html">Covid-19</a></li>
+                <li><a href="IMC.html">IMC</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="inicio.html">Incio</a></li>
+            </ul>
+<button class="ham" type="button">
+    <span class="br-1"></span>
+    <span class="br-2"></span>
+    <span class="br-3"></span>
+</button>      
+<div class="Mascarrila-covid1">
+    <img src="https://images-ext-1.discordapp.net/external/kEjIqYep-vWvFEv_pU682FROGXQdJDEkB7p-gQEfWzc/https/i.imgur.com/OhLEYRz.png" alt=""></div>
+</nav>
             <div class="CajaTexto1_SobreP">
                 <p>Resultados</p>
                 <div class="CajaImagen_SobreP">
@@ -38,11 +47,21 @@
                 </div>
             </div>
             <div class="cajaT_SobreP">
-                <div class="CajaTexto2_SobreP">
+                <div class="Cajabotones">
+                    <button class="btn1" id="btn1"></button>
+                    <button class="btn2" id="btn2"></button>
+                    <button class="btn3" id="btn3"></button>
+
+                </div>
+                <div class="CajaTexto2_Obe">
+                    <p id="text00">
+                        IMC: 25.0 y 29.9 Sobrepeso </br> Peso deseable:18.5 y 24.9 Kg </br> Total gasto calórico:2863 Kcal </br> Dieta indicada:2863 Kcal
+                    </p>
                 </div> 
             </div>
 
     </section>
-
+    <script src="js/imc.js"></script>
+    <script src="js/js.js"></script>
 </body>
 </html>
