@@ -37,12 +37,5 @@ function IMC(elEvento){
 var boton = document.querySelector("#boton");
 boton.addEventListener("submit",IMC)
 
-/* seción de recomendaciones */
 
-function cambiar (){
-    document.getElementById("#text00").innerHTML = "Aja te cambie";
-}
-    document.getElementById("#btn2").onclick = function (){
-    cambiar();
-    }
 
