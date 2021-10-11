@@ -1,64 +1,48 @@
-/* Datos del formulario de IMC*/ 
-var estatura = document.querySelector("#inputEstatura").value;
-var peso = document.querySelector("#inputPeso").value;
-var kilos = 0.45
+function IMC(elEvento){
+    elEvento.preventDefault();
 
+    var Edad = document.querySelector("#Edad").value;
+    var peso = document.querySelector("#PesoA").value;
+    var altura =document.querySelector("#Altura1").value;
+    var boton = document.querySelector("#boton");
+    var respuestas = document.querySelector("#respuestas");
+    
 
+    var formula = peso/(altura*altura);
+    
 
-function calcularIMC(e){
-e.preventDefault();
+    // Medidas de un adulto.
 
-var nombre = document.querySelector("#inputNombre").value;
-var estatura = document.querySelector("#inputEstatura").value;
-var libras = document.querySelector("#inputPeso").value;
-var resultado = document.querySelector("#inputRespuesta");
-var peso = (libras*kilos)
-var respuesta = peso/(estatura*estatura)
+   if(formula < 18.5){
+        respuestas.innerHTML = '<p class =Pri_imc >  Bajo peso - IMC  '  +  formula.toFixed(1) + '</p> ' + 
+        '<div class="list_1"> <STYLE>A {text-decoration: none;} </STYLE> <a href="BajoPeso.html"> Leer más </a> </div> ';
+    } else if (formula >18.5 & formula< 24.9){
+        respuestas.innerHTML = '<p class =Pri_imc_2 > Peso normal - IMC  '  +  formula.toFixed(1) + '</p> ' + 
+        ' <div class="list_2"> <STYLE>A {text-decoration: none;} </STYLE> <a href="Saludable.html"> Leer más </a> </div>';
 
-var cajaResultados = document.querySelector("#cajaResultados");
-var bajoPesoResultado = document.querySelector("#bajoPeso");
-var pesoIdealResultado = document.querySelector("#pesoIdeal");
-var sobrePesoResultado = document.querySelector("#sobrePeso");
-var obesidadResultado = document.querySelector("#obesidad");
+    }else if (formula > 25 & formula< 29.9 ){
+        respuestas.innerHTML = '<p class =Pri_imc_3 > Sobrepeso - IMC  '  +  formula.toFixed(1) + '</p> ' +  
+        '<div class="list_3"> <STYLE>A {text-decoration: none;} </STYLE> <a href="Sobrepeso.html"> Leer más </a> </div>';
 
-var formulario2 = document.querySelector("#inputFormulario");
+    }else if (formula > 30 & formula< 39.9){
+        respuestas.innerHTML =  '<p class =Pri_imc_4 > Obesidad- IMC  '  +  formula.toFixed(1) + '</p> ' + 
+        '<div class="list_3"> <STYLE>A {text-decoration: none;} </STYLE> <a href="Obesidad.html"> Leer más </a> </div>';
 
+    }else if (formula >= 40){
+        respuestas.innerHTML = '<p class =Pri_imc_5 > Obesidad extrema - IMC  '  +  formula.toFixed(1) + '</p> ';
 
-var bajoPeso = 0
-var pesoNormal = 18.5
-var sobrePeso = 25
-var obesidad = 30
-
-cajaResultados.classList.add('activarCaja');
-formulario2.classList.add('desactivarCaja');
-
-if(respuesta < pesoNormal){
-bajoPesoResultado.classList.add('activarCaja');
-resultado.innerHTML = ( nombre + "<h2>Te encuentras en la categoría de bajo peso, tu IMC es " + respuesta.toFixed(1) + ". Las recomendaciones de Milo para ti, son:</h2>");
-}else{
-    if(respuesta < sobrePeso){
-        pesoIdealResultado.classList.add('activarCaja');
-        resultado.innerHTML ="<h1>¡WOW, GENIAL " + nombre + "!</h1><h2>Te encuentras en la categoría de peso ideal, tu IMC es " + respuesta.toFixed(1) + ". Las recomendaciones de Milo para ti, son:</h2>";
-        }else{
-            if(respuesta < obesidad){
-                sobrePesoResultado.classList.add('activarCaja');
-                resultado.innerHTML ="<h1>¡OH NO " + nombre + "!</h1><h2>Te encuentras en la categoría de sobrepeso, tu IMC es " + respuesta.toFixed(1) + ". Las recomendaciones de Milo para ti, son:</h2>";
-                }else{
-                    if(respuesta > obesidad){ 
-                        obesidadResultado.classList.add('activarCaja');
-                        resultado.innerHTML ="<h1>¡OH NO " + nombre + "!</h1><h2>Te encuentras en la categoría de obesidad, tu IMC es " + respuesta.toFixed(1) + ". Las recomendaciones de Milo para ti, son:</h2>";
-
-                }
-            }
-         }
-     }
+    }    
 }
-function cajaRespuesta(e){
-    e.preventDefault();
 
-    resultado.classList.add('#inputRespuesta');
+var boton = document.querySelector("#boton");
+boton.addEventListener("submit",IMC)
+
+/* seción de recomendaciones */
+
+function cambiar (){
+    document.getElementById("#text00").innerHTML = "Aja te cambie";
 }
-var boton = document.querySelector("#inputFormulario");
+    document.getElementById("#btn2").onclick = function (){
+    cambiar();
+    }
 
-boton.addEventListener("submit", calcularIMC);
-boton.addEventListener("submit", cajaRespuesta);

@@ -125,7 +125,7 @@ section{
     text-align: center;
     padding-top: 3px;
     font-size: 19px;
-    margin-left: 142px;
+    margin-left: 120px;
 }
 .circulo-inicio{
     width: 128px;
@@ -524,18 +524,15 @@ section{
     background: rgb(91,188,255);
     background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
 }
-/*
+
 .Cabecera1-IMCinfo{
     flex-direction: column;
     align-items: flex-start;
     padding: 10px 0;
-    
-    background-color: cornflowerblue;
-   
-   
-    /*width: 375px;
+
+    width: 375px;
     height: 70px;
-    background-color: cornflowerblue;
+    background-color: #ffffff;
     border-radius: 0px 0px 20px 20px;
     padding-top: 12px;
     display: flex;
@@ -552,21 +549,26 @@ section{
 .ham span{
     display: none;
     display: block;
-    background-color: green;
+    background-color:grey;
     height: 3px;
     width: 28px;
     margin: 10px auto;
     border-radius: 2px;
 }
 .enlaces-menu{
+    position: relative;
     flex-direction: column;
     justify-content: space-around;  
     align-items: center; 
-    height: 10vh;
+    height: 39vh;
     margin: 0;
     padding: 0;
     width: 100%;
     display: none;
+    margin-top: 57px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 30px 0px;
+    border: mediumturquoise;
 
 }
 .enlaces-menu li{
@@ -581,20 +583,16 @@ section{
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: 600;
+    color: #797979;
+    font-size: 20px;
 }
 .enlaces-menu li:hover{
-    background-color: grey;
+    background-color:mediumturquoise;
 }
 .enlaces-menu.activado{
     display: flex;
 }
-*/
-.BottonL{
-    margin-top: 10px;
-    margin-left: 13px;
-    width: 33px;
-    height: 33px;
-}
+
 .Mascarrila-covid1{
     margin-top: 6px;
     width: 33px;
@@ -762,8 +760,6 @@ section{
 /*******************************/
 /* Seccion de calculadora*/
 
-
-
 .result{
 
     margin-top: 20px;
@@ -820,13 +816,182 @@ section{
     padding: 2rem;
 }
 
- 
 
+.sect_form{
+    width:  37.5rem;
+    margin: auto;
+}
 
+.img_de_2{
+    width: 100%;
+    height: 22.7rem;
+}
+.fondo_1:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+}
+.nom_1{
+    width: 25.5rem;
+    height: 5.8rem;
+    position: absolute;
+    margin-left:7rem;
+    margin-top:-14rem ;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.nom_1 p{
+    text-align: center;
+    font-size: var(--subtitulo);
+    padding-top: 1rem;
+    color: #FFFFFF;
+}
+.sect_fo_v{
+    width: 37.5rem;
+    height: 50rem;
+    position:absolute;
+    background-color:#FFFFFF;
+    border-radius: 50px 50px 0px 0px;
+}
+.login{
+    width: 37rem;
+    height: auto;
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.primero{
+    margin-top: 5rem;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column; 
+    color: #A8A8A8;
+    font-family: 'Roboto', sans-serif;
+}
+.segundo,.tercero{
+    margin-top: 2rem;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    color: #A8A8A8;
+    font-family: 'Roboto', sans-serif;
+}
+.Edad,.PesoA {
+    max-width: 35rem;
+    height: 4.5rem;
+    padding: 1rem;
+    outline: none;
+    font-size: var(--parrafp);
+    margin-top: 1.2rem;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.Altura1 {
+    max-width: 35rem;
+    height: 4.5rem;
+    padding: 1rem;
+    outline: none;
+    font-size: var(--parrafp);
+    margin-top: 1.2rem;
+    margin-bottom: 3.5rem;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.bot{
+    width: 17.4rem;
+    height: 4.4rem;
+    border: none; 
+    margin: auto;
+    background: linear-gradient(180deg, #BFF098 0%, #72FF6F 100%);
+    cursor: pointer;
+    outline: none;
+    border-radius: 100px;
+}
+.bot p{
+    padding: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+/* Cuadros de respuestas*/
+.mensaje{
+    width: 37.5rem;
+    margin-left: -2.2rem;
+}
+.mensaje:empty {
+    display: none;
+  }
 
+.Pri_imc,.Pri_imc_3,.Pri_imc_4,.Pri_imc_5,.Pri_imc_2{
+    width: 35rem;
+    height: 3rem;
+    margin: auto;
+    border-radius: 100px;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-top: 3rem;
+    padding:0.5rem ;
+    font-family: 'Roboto', sans-serif;
+}
 
+.img_imc_1,.img_imc_2,.img_imc_3,.img_imc_4{
+    width: 17.7rem;
+    height: 17.7rem;
+    margin-left: 9rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
 
-
+}
+.info_2{
+    width: 31.6rem;
+    height: 2.1rem;
+    margin-top: 2rem;
+    
+    margin-left: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: var(--parrafp);
+    color: #6D6D6D;
+}
+.info_1,.info_3,.info_4{
+    width: 31.6rem;
+    height: 2.1rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: var(--parrafp);
+    color: #6D6D6D;
+}
+.list_1,.list_2,.list_3,.list_4{
+    width: 17.4rem;
+    height: 4.4rem;
+    margin-top: 3rem;
+    margin-left: 9.5rem;
+    text-align: center;
+    list-style: none;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #BFF098 0%, #72FF6F 100%);
+    font-size: 24px;
+    padding: 1rem;
+}
+.list_1 a,.list_2 a,.list_3 a,.list_4 a{
+    color: #FFFFFF;
+}
+.for_1_imc,.for_2_imc,.for_3_imc,.for_4_imc{
+    width: 37.5rem;
+    height: 10rem;
+    margin-top: 3rem;
+}
 
 .contenedor1_calcu{
     width: 375px;
@@ -835,7 +1000,7 @@ section{
     background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
 }
 .CajaTexto1_Calcu{
-    margin-top: 35px;
+    margin-top: 20px;
     margin-left: 12px;
     width: 350px;
     height: 137px;
@@ -847,55 +1012,6 @@ section{
     line-height: 59px;
     text-align: center;
     color: #FFFFFF;
-}
-.CajaforIMC_Calcu{
-
-    margin-left: 13px;
-    width: 349px;
-    height: 424.5px;
-    border-radius: 46px 46px 0px 0px;
-    background-color: #ffffff;
-}
-
-.Cajaform_Calcu {
-    display: flex;
-    flex-direction: column;
-    margin-left: 41px;
-}
-.Cajaform_Calcu label {
-    font-size: 20px;
-    margin-top: 10px;
-    color:  #797979;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-}
-
-.input-nombres{
-    width: 280px;
-    height: 29px;
-}
-
-.Cajaform_Calcu input {
-    height: 34px;
-    padding-bottom: 10px;
-    border: 1px solid #A8A8A8;
-    border-radius: 46px;
-    margin-top: 30px;
-}
-
-.b_IMCcalcu{
-    margin-top: 48px;
-    margin-left: 50px;
-    width: 168px;
-    height: 39px;
-    border: none;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(180deg, #BFF098 0%, #72FF6F 100%);
-    border-radius: 24.5px;
-    color: #FFFFFF;
-    cursor: pointer;
 }
 /*********************************/
 /* Seccion de bajopesoform*/
@@ -945,13 +1061,47 @@ section{
     height: 226px;
     background-color: #FFFFFF;
     border-radius: 41px 41px 0px 0px;
+
+}
+.Cajabotones{
+    margin-left: 130px;
+    width: 100px;
+    height: 40px;
+    flex-direction: column;
+}
+.btn1{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    background: #C4C4C4;
+}
+.btn2{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    background: #C4C4C4;
+}
+.btn3{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    background: #C4C4C4;
 }
 .CajaTexto2_BajoP{
-    margin-left: 34px;
+    margin-left: 44px;
     width: 265px;
     height: 137px;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 28px;
     text-align: center;
     color: #A8A8A8;
@@ -1075,6 +1225,65 @@ section{
     text-align: center;
     color: #A8A8A8;
 }
+/*************************************/
+/* sección de obesidad */
+.contenedor1_Obesidad{
+    width: 375px;
+    height: 667px;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.CajaTexto1_Obe{
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    margin-left: 65px;
+    width: 253px;
+    height: 60px;
 
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.CajaImagen_Obe{
+    width: 350px;
+    height: 350px;
+    margin-left: -48px;
+    margin-top: -5px;
+}
+.CajaImagen_Obe2{
+    width: 16px;
+    height: 16px;
+    margin-left: 215px;
+    margin-top: -45px;
+}
+.CajaImagen_Obe3{
+    width: 279px;
+    height: 29px;
+    margin-left: -25px;
+    margin-top: 20px;
+}
+.cajaT_Obe{
+    margin-top: 275px;
+    margin-left: 12.5px;
+    width: 350px;
+    height: 226px;
+    background-color: #FFFFFF;
+    border-radius: 41px 41px 0px 0px;
+}
+.CajaTexto2_Obe{
+    margin-left: 34px;
+    width: 265px;
+    height: 137px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #A8A8A8;
+}
 
 
