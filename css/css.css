@@ -433,7 +433,7 @@ input[type=checkbox]{
     background: rgb(71,241,139);
     background: linear-gradient(180deg, rgba(71,241,139,1) 12%, rgba(111,220,255,1) 90%);
     position:absolute;
-    top:-28.3rem;
+    bottom: 1px;
     justify-content: center;
 }
 .resultado{
