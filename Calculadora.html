@@ -17,39 +17,94 @@
 </head>
 <body>
 
-    <section class="contenedor1_calcu">
-        <div class="Cabecera1-IMCinfo">
-            <div class="BottonL">
-                <img src="https://images-ext-1.discordapp.net/external/d3FujjRJoupqVYYe89sDYTnzhcPfQpPWAagqSBk2X2M/https/i.imgur.com/Icogw8c.png">
-            </div>
-            <div class="Mascarrila-covid1">
-                <img src="https://cdn.discordapp.com/attachments/748542917366513774/892064716598427738/NobQR30__3_-removebg-preview_2.png" alt=""></div>
-            </div>
-            <div class="CajaTexto1_Calcu">
-                <p>¿Qué es y para qué nos sirve?</p>
-            </div>
-            <div class="CajaforIMC_Calcu">
-                    <form class="Cajaform_Calcu" id="primero">
-                    <label for="edad">
-                        ¿Cuál es tu edad?
-                        <input  type="text"  class="input-nombres" name="edad" id="txtedad">
-                    </label>
-        
-                    <label  for="peso">
-                        ¿Cuál es tu peso en? (kg)
-                        <input type="text"  class="input-nombres" placeholder="Peso en kilogramos" name="peso" id="txtpeso">
-                    </label>
-        
-                    <label for="altura">
-                        ¿Cuanto mides? (Cm)
-                        <input type="text"  class="input-nombres" placeholder="Altura en metros" name="altura" id="txtaltura">
-                    </label> 
+    <section class="contenedor1_BajoPeso" id="Bajo-peso">
+        <div class="contenedor">
+            <section class="section-test">
+                <div class="test-img"></div>
+                <div class="test-contenido">  
+                    <form id="formulario-nommbre" class="formulario-nombre">
+                        <label><h2>¿Cuál es tu nombre?</h2><input type="text" id="inputNombre"></label>
+                        <button id="btn-siguiente"class="boton"><h2>SIGUIENTE</h2></button>
+                    </form> 
+                    <form id="inputFormulario" class="formulario-imc">
+                        <label for="estatura">
+                            <h2>¿Cuál es tu estatura en metros?</h2>
+                            <input 
+                            type="number"
+                            step="0.01"  
+                            class="input-estatura" 
+                            name="estatura" 
+                            placeholder="Ej. 1.80"
+                            id="inputEstatura">
+                        </label>
+                        <br><br>
+                        <label for="peso">
+                            <h2 class="peso">¿Cuál es tu peso en libras?</h2>
+                            <input 
+                            type="number"
+                            step="0.01"    
+                            class="input-peso" 
+                            name="peso" 
+                            placeholder="Ej. 90"
+                            id="inputPeso">
+                        </label>
+                        
+                        <div class="caja-botones">
+                            <button class="btn-anterior"><h2>ANTERIOR</h2></button>
+                            <button><h2>RESULTADOS</h2></button>
+                        </div>
+                    </form>
+                    
+                    <div class="cajaResultados" id="cajaResultados">
     
-                 <button class="b_IMCcalcu" id="btncalcular">Calcular</button>
-                </form> 
+                    <label for="" id="inputRespuesta" class="respuesta"></label> 
+                    <img src="https://images-ext-2.discordapp.net/external/027VF7NEX6od4CUFqoMYF9qKnX72Kn90XLF5mbLk0aU/https/i.imgur.com/46I32ys.png">
+                    <div class="bajoPeso" id="bajoPeso">
+                        <div class="alimentacion">
+                            <h1>!Haz Click aqui¡</h1>
+                            <p>
+                            En esta seccion podras ver recomendaciones para poder tener tu peso ideal 
+                            </p>
+                        </div>
+                        
+                        </div>
+                    </div>  
+    
+                    <div class="pesoIdeal" id="pesoIdeal">
+                        <div class="alimentacion">
+                            <h1>!Haz Click aqui¡</h1>
+                            <p>
+                            En esta seccion podras ver recomendaciones para poder mantener tu peso ideal
+                            </p>
+                        </div>
+                        
+                    </div> 
+    
+                    <div class="sobrePeso" id="sobrePeso">
+                        <div class="alimentacion">
+                            <h1>!Haz Click aqui¡</h1>
+                            <p>
+                            En esta seccion podras ver recomendaciones para poder tener tu peso ideal 
+                            </p>
+                        </div>
+    
+                    <div class="obesidad" id="obesidad">
+                        <div class="alimentacion">
+                            <h1>!Haz Click aqui¡</h1>
+                            <p>
+                            En esta seccion podras ver recomendaciones para poder tener tu peso ideal 
+                            </p>
+                        </div>
+    
+    
+                    <a href="nutricion.html" class="boton-finalizar"><h2>FINALIZAR</h2></a>  
+                </div>  
             </div>
-        
+           
+    
+        </section>
     </section>
+    </div>   
 
     <script src="js/imc.js"></script>
 </body>

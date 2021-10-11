@@ -761,6 +761,73 @@ section{
 }
 /*******************************/
 /* Seccion de calculadora*/
+
+
+
+.result{
+
+    margin-top: 20px;
+    align-items: center;
+    width: 349px;
+    height: 424.5px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    background: #ffffff;
+    color: rgb(97, 79, 15);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+    margin-left: -41px;
+    
+  }
+  .result.activado{
+      display: flex;
+  }
+  .contenedor1_calcu{
+    width: 375px;
+    height: 667px;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.section-test{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+    margin-top: 0rem;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.test-img{
+    display: block;
+    width: 100%;
+    height: 17.9rem;
+    background-image: url(../img/testimcimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0rem;
+}
+.test-contenido{
+    width: 100%;
+    height: auto;
+    background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: -2rem;
+    border-radius: 3rem;
+    padding: 2rem;
+}
+
+ 
+
+
+
+
+
+
+
 .contenedor1_calcu{
     width: 375px;
     height: 667px;
@@ -819,7 +886,7 @@ section{
 
 .b_IMCcalcu{
     margin-top: 48px;
-    margin-left: 100px;
+    margin-left: 50px;
     width: 168px;
     height: 39px;
     border: none;
@@ -828,6 +895,7 @@ section{
     background: linear-gradient(180deg, #BFF098 0%, #72FF6F 100%);
     border-radius: 24.5px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 /*********************************/
 /* Seccion de bajopesoform*/
@@ -1007,4 +1075,6 @@ section{
     text-align: center;
     color: #A8A8A8;
 }
+
+
 
