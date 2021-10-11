@@ -1823,3 +1823,1828 @@ background: linear-gradient(180deg, rgba(71,241,139,1) 19%, rgba(111,220,255,1) 
     text-align: center;
     color: #A8A8A8;
 }
+/* Seccion General*/
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    font-size: 10px;
+}
+section{
+    box-sizing: border-box;
+    width:  375px;
+    margin: auto;
+}
+
+/****************************************************************/
+/* Seccion Home Page */
+
+.Contenedor1{
+    width: 375px;
+    height: 667px;
+    padding-top:135px;
+    background: rgb(0,255,224);
+    background: linear-gradient(180deg, rgba(0,255,224,1) 12%, rgba(111,169,255,1) 90%);
+}
+.mascarilla{
+    width: 128px;
+    height: 128px;
+    margin:auto;
+}
+.Nutrivid{
+    width: 208px;
+    height: 84px;
+    font-size: 74px;
+    margin: auto;
+    color: white;
+    margin-top: 28px;
+}
+.ImagenPersonaM{
+    width: 235px;
+    height: 235px;
+    position: relative;
+    bottom: 50px;
+    right: 46px;
+}
+/******************************************************************/
+/* Formulario */
+
+.Contenedor1_For{
+    width: 375px;
+    height: 667px;
+    padding-top:52px;
+}
+.mascarilla1{
+        width: 128px;
+        height: 128px;
+        margin:auto;
+}
+.Caja-Form {
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 41px;
+}
+.Caja-Form label {
+    font-size: 20px;
+    margin-top: 10px;
+    color:  #797979;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-nombres{
+    width: 294px;
+    height: 26px;
+    border-style: none;
+}
+
+.Caja-Form input {
+    height: 34px;
+    padding-bottom: 10px;
+    background-color: #52C6D9 ;
+    border-radius: 12px;
+    margin-top: 10px;
+}
+.b_For{
+    width: 133px;
+    height: 36px;
+    margin-top: 49px;
+    margin-left: 75px;
+    border-radius: 20px ;
+    color:  #797979;
+    border-style: #52C6D9;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    border: 3px solid #52C6D9;
+
+}
+/***********************************************************************/
+/*seccion inicio*/
+.Contenedor1_inicio{
+    width: 375px;
+    height: 667px;
+}
+.Cabecera1-inicio{
+    width: 375px;
+    height: 70px;
+    background-color: #07A6FF;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.Mascarrila-inicio{
+    width: 33px;
+    height: 33px;
+    margin-left: 171px;
+}
+.ayuda{
+    width: 30px;
+    height: 30px;
+    background-color: #E4E4E4;
+    margin-right: 3px;
+    border-radius: 60px;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 19px;
+    margin-left: 120px;
+}
+.circulo-inicio{
+    width: 128px;
+    height: 128px;
+    margin: auto;
+    margin-top: 60px;
+}
+.txt-inicio{
+    width: auto;
+    height: 23px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+/*********************************************************/
+/* seccion covid-19*/
+.Contenedor1_covid{
+    width: 375px;
+    height: 667px;
+    background: rgb(71,241,139);
+    background: linear-gradient(180deg, rgba(71,241,139,1) 19%, rgba(111,220,255,1) 76%);
+}
+.Rectangulo1-covid{
+    width: 150px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 0px 71px 71px 0px;
+}
+.Rectangulo2-covid{
+    width: 160px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 71px 0px 0px 71px;
+    margin-left: 80px;
+    margin-top: 54px;
+}
+.a-covid{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.zombi{
+    position: relative;
+    top: 70px;
+    left: 80px;
+    
+}
+.Rectangulo3-covid{
+    width: 250px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 0px 71px 71px 0px;
+    margin-top: 60px;
+    font-size: 50px;
+    text-align: end;
+    padding-top: 13px;
+    padding-right: 13px;
+}
+.covid-img{
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+.caja-covid-txt{
+    width: 300px;
+    height: 230px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 71px 71px 0px 0px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+.boton-covid-in{
+    width: 168px;
+    height: 39px;
+    background: rgb(159,152,240);
+    background: linear-gradient(180deg, rgba(159,152,240,1) 12%, rgba(111,203,255,1) 90%);
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding-top: 5px;
+    color: #FFFFFF;
+}
+.Contenedor1_test_covid{
+    width: 375px;
+    height: 667px;
+    background: rgb(240,109,219);
+    background: linear-gradient(180deg, rgba(240,109,219,1) 0%, rgba(240,109,219,1) 21%, rgba(111,229,255,1) 74%);
+}
+.Cabecera1-test-covid{
+    width: 375px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.Mascarrila-test-covid{
+    width: 33px;
+    height: 33px;
+    margin-left: 171px;
+}
+
+.img-test-covid{
+    width: 375px;
+    height: 144px;
+    background-color:#00B2A9;
+    padding-left: 51px;
+}
+.Titulo-test-covid{
+    width: 311px;
+    height: 84px;
+    margin: auto;
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: 55px;
+    text-align: center;
+}
+.Texto-test-covid{
+    width: 339px;
+    height: 180px;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.boton-test-covid{
+    width: 217px;
+    height: 49px;
+    border-radius: 71px;
+    margin: auto;
+    color: #FFFFFF;
+    background: rgb(159,152,240);
+    background: linear-gradient(180deg, rgba(159,152,240,1) 12%, rgba(111,203,255,1) 90%);
+    text-align: center;
+    font-size: 24px;
+    padding-top: 11px;
+}
+/************************************************/
+/* seccion Preguntas para el test de covid*/
+.Contenedor1_Preguntas_covid{
+    width: 375px;
+    height: 667px;
+    background: rgb(240,109,219);
+    background: linear-gradient(180deg, rgba(240,109,219,1) 0%, rgba(240,109,219,1) 21%, rgba(111,229,255,1) 74%);
+}
+.Cabecera1-preguntas-covid{
+    width: 375px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.Mascarrila-preguntas-covid{
+    width: 33px;
+    height: 33px;
+    margin-left: 171px;
+}
+
+.img-preguntas-covid{
+    width: 375px;
+    height: 144px;
+    background-color:#00B2A9;
+    padding-left: 51px;
+}
+.Titulo-preguntas-covid{
+    width: 311px;
+    height: 84px;
+    margin: auto;
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: 55px;
+    text-align: center;
+}
+.pregunta{
+    width: 209px;
+    height: 43px;
+    background-color: #ffffff;
+    border-radius: 0px 25px 25px 0px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 9px;
+    margin-top: 35px;
+}
+
+.textoP-1{
+    width: 80px;
+    height: 22px;
+    margin-top: 20px;
+    display: none;
+
+}
+.textoP1{
+    width: 250px;
+    height: 20px;
+    margin-left: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    display: none;
+}
+.textoP-2{
+    width: 80px;
+    height: 22px;
+    margin-top: 20px;
+    display: none;
+
+}
+.textoP2{
+    width: 250px;
+    height: 20px;
+    margin-left: 15px;
+    color: #ffffff;
+    font-size: 20px;
+    display: none;
+}
+.textoP-3{
+    width: 80px;
+    height: 22px;
+    margin-top: 20px;
+}
+.textoP3{
+    width: 250px;
+    height: 20px;
+    margin-left: 15px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+/************************************************/
+/*Seccion de informacion de covid*/
+.contenedor1_INFO{
+    width: 375px;
+    height: 767px;
+    background: rgb(71,241,139);
+    background: linear-gradient(180deg, rgba(71,241,139,1) 12%, rgba(111,220,255,1) 90%);
+}
+.rectangulo1-info{
+    width: 150px;
+    height: 80px;
+    background-color: #FFFFFF;
+    margin-top: 46px;
+    border-radius: 0px 71px 71px 0px;
+    font-size: 24px;
+    padding-top:21px ;
+    padding-left:10px ;
+    display: flex;
+    flex-direction: row;
+}
+.signo-mas1{
+    width: 41px;
+    height: 31px;
+}
+.rectangulo2-info{
+    width: 150px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border-radius: 71px 0px 0px 71px;
+    margin-left: 230px;
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    padding-top: 25px;
+}
+.a-info{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.covid-img{
+    width: 100px;
+    height: 100px;
+}
+.covid-19-T{
+    width: 238px;
+    height: 82px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 47px;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 71px;
+    padding-top: 10px;
+}
+.rectangulo1-info1{
+    width: 200px;
+    height: 80px;
+    background-color: #FFFFFF;
+    margin-top: 46px;
+    border-radius: 0px 71px 71px 0px;
+    font-size: 24px;
+    padding-top:21px ;
+    padding-left:10px ;
+    display: flex;
+    flex-direction: row;
+}
+.a-info1{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.boton-para-test{
+    width: 168px;
+    height: 39px;
+    background: rgb(159,152,240);
+    background: linear-gradient(180deg, rgba(159,152,240,1) 12%, rgba(111,203,255,1) 90%);
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    border-radius: 71px;
+    padding-top: 5px;
+}
+.boton-para-Sintomas{
+    width: 168px;
+    height: 39px;
+    background: rgb(159,152,240);
+    background: linear-gradient(180deg, rgba(159,152,240,1) 12%, rgba(111,203,255,1) 90%);
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border-radius: 71px;
+    padding-top: 5px;
+}
+/************************************************/
+/* Seccion Sintomas */
+.Contenedor1_Sintomas_covid{
+    width: 375px;
+    height: 667px;
+    background: rgb(71,241,139);
+background: linear-gradient(180deg, rgba(71,241,139,1) 19%, rgba(111,220,255,1) 76%);
+}
+.Cabecera1-sintomas-covid{
+    width: 375px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.Mascarrila-sintomas-covid{
+    width: 33px;
+    height: 33px;
+    margin-left: 171px;
+}
+
+.img-sintomas-covid{
+    width: 375px;
+    height: 190px;
+}
+.Titulo-sintomas-covid{
+    width: 311px;
+    height: 84px;
+    margin: auto;
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: 55px;
+    text-align: center;
+}
+.linea-sintomas-Titulo{
+    width: 311px;
+    height: 3px;
+    background-color: #ffffff;
+}
+.Texto-sintomas-covid{
+    width: 311px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.boton-sintomas-covid{
+    width: 217px;
+    height: 49px;
+    background: rgb(159,152,240);
+    background: linear-gradient(180deg, rgba(159,152,240,1) 12%, rgba(111,203,255,1) 90%);
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 24px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom:10px;
+    color: #FFFFFF;
+}
+.linea-Titulo{
+    margin: auto;
+}
+/************************************************/
+/*Seccion Que es covid*/
+.Contenedor1_covid_quees{
+    width: 375px;
+    height: auto;
+    background: rgb(71,241,139);
+    background: linear-gradient(180deg, rgba(71,241,139,1) 12%, rgba(111,220,255,1) 90%);
+}
+.Cabecera1-covid-quees{
+    width: 375px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.Mascarrila-covid-quees{
+    width: 33px;
+    height: 33px;
+    margin-left: 171px;
+}
+
+.img-covid-quees{
+    width: 375px;
+    height: 200px;
+}
+.Titulo-covid-quees{
+    width: 311px;
+    height: 84px;
+    margin: auto;
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: 55px;
+    text-align: center;
+}
+.linea-Titulo-quees{
+    width: 311px;
+    height: 3px;
+    background-color: #ffffff;
+}
+.Texto-covid-quees{
+    width: 311px;
+    height: 147px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.linea-Texto-quees{
+    width: 311px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.boton-covid-quees{
+    width: 217px;
+    height: 49px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    border-radius: 0px 40px 40px 0px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 13px;
+
+}
+.Boton-covid-quees{
+    width: 217px;
+    height: 49px;
+    background: rgb(159,152,240);
+    background: linear-gradient(180deg, rgba(159,152,240,1) 12%, rgba(111,203,255,1) 90%);;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 11px;
+    font-size: 24px;
+}
+.linea-Texto-covidquees{
+    width: 311px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin: auto;
+
+}
+.a-covidquees{
+    width: 311px;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/************************************************/
+/*Seccion de la importancia del covid-19*/
+.Contenedor1_covid_imp{
+    width: 375px;
+    height: 667px;
+    background: rgb(71,241,139);
+    background: linear-gradient(180deg, rgba(71,241,139,1) 12%, rgba(111,220,255,1) 90%);
+}
+.Cabecera1-covid-imp{
+    width: 375px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.Mascarrila-covid-imp{
+    width: 33px;
+    height: 33px;
+    margin-left: 171px;
+}
+
+.img-covid-imp{
+    width: 375px;
+    height: 200px;
+}
+.Titulo-covid-imp{
+    width: 311px;
+    height: 84px;
+    margin: auto;
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: 55px;
+    text-align: center;
+}
+.linea-Titulo-imp{
+    width: 311px;
+    height: 3px;
+    background-color: #ffffff;
+}
+.Texto-covid-imp{
+    width: 311px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.linea-Texto-imp{
+    width: 311px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.boton-covid-imp{
+    width: 217px;
+    height: 49px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    border-radius: 0px 40px 40px 0px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 13px;
+
+}
+.Boton-covid-imp{
+    width: 217px;
+    height: 49px;
+    background: rgb(159,152,240);
+    background: linear-gradient(180deg, rgba(159,152,240,1) 12%, rgba(111,203,255,1) 90%);;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 11px;
+    font-size: 24px;
+}
+.linea-Texto-imp{
+    width: 311px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin: auto;
+
+}
+.covid-img1{
+    width: 191px;
+    height: 254px;
+    position:fixed;
+    left: 280px;
+    bottom: 150px;
+}
+.covid-img2{
+    width: 177px;
+    height: 177px;
+    position: fixed;
+    right: 280px;
+    bottom: 10px;
+}
+.a-imp{
+    width: 311px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+/************************************************/
+/*Seccion de Tipos de test*/
+.Contenedor1_tipotest{
+    width: 375px;
+    height: auto;
+    background: rgb(71,241,139);
+    background: linear-gradient(180deg, rgba(71,241,139,1) 12%, rgba(111,220,255,1) 90%);
+}
+.Cabecera1-tipotest{
+    width: 375px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.Mascarrila-tipotest{
+    width: 33px;
+    height: 33px;
+    margin-left: 171px;
+}
+
+.img-tipotest{
+    width: 375px;
+    height: 200px;
+}
+.Titulo-tipotest{
+    width: 311px;
+    height: 84px;
+    margin: auto;
+    font-size: 64px;
+    color: #ffffff;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.linea-Titulo{
+    width: 311px;
+    height: 3px;
+    background-color: #ffffff;
+}
+.Texto-tipotest{
+    width: 311px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.linea-Texto-tipotest{
+    width: 311px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.boton-tipotest{
+    width: 217px;
+    height: 49px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    border-radius: 0px 40px 40px 0px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 13px;
+}
+.boton-tipotest1{
+    width: 217px;
+    height: 49px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-left: 59px;
+    border-radius: 40px 0px 0px 40px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 13px;
+}
+.Boton-tipotest{
+    width: 217px;
+    height: 49px;
+    background: rgb(159,152,240);
+    background: linear-gradient(180deg, rgba(159,152,240,1) 12%, rgba(111,203,255,1) 90%);;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 11px;
+    font-size: 24px;
+}
+.linea-Texto-tipotest{
+    width: 311px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    margin: auto;
+
+}
+.contenedor-BC{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.vih{
+    width: 357px;
+    height: 167px;
+    position: relative;
+    right: 50px;
+}
+.covid-test{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+}
+.covid-azul{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    right: 59px;
+}
+.Prueba{
+    width: 190px;
+    height: 183px;
+    margin-left: 185px;
+}
+.a-tipotest{
+    width: 311px;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+/************************************************/
+/*Seccion de Recomendaciones para el covid-19*/
+.Contenedor1_RC{
+    width: 375px;
+    height: 1030px;
+    background: rgb(71,241,139);
+    background: linear-gradient(180deg, rgba(71,241,139,1) 12%, rgba(111,220,255,1) 90%);
+}
+.T-Recomedacion-covid{
+    width: 328px;
+    height: 69px;
+    margin: auto;
+    background-color: #FFFFFF;
+    margin-top: 27px;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 13px;
+    border-radius: 75px;
+}
+.Escudo-c{
+    width: 375px;
+    height: 375px;
+    margin: auto;
+    margin-top: 35px;
+}
+.Contenido-RC{
+    width: 338px;
+    height: 352px;
+    border-radius: 71px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    padding-left: 28px;
+    padding-top: 80px;
+}
+.boton-repetir-RC{
+    width: 217px;
+    height: 49px;
+    background: rgb(159,152,240);
+    background: linear-gradient(180deg, rgba(159,152,240,1) 12%, rgba(111,203,255,1) 90%);;
+    margin: auto;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 11px;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+/************************************************/
+/* seccion IMC */
+.contenedor1_IMC{
+    width: 375px;
+    height: 667px;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.caja1_IMC{
+    width: 175px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 0px 71px 71px 0px;
+}
+.caja2_IMC{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 200px;
+    width: 175px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 71px 0px 0px 71px;
+}
+.imgcaja2{
+    position: relative;
+    bottom: 105px;
+    right: 50px;
+    width: 129px;
+    height: 202px;
+
+    
+}
+.caja3_IMC{
+    display: flex;
+    margin-top: 30px;
+    width: 245px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 0px 71px 71px 0px;
+}
+.CajaTexto3{
+    display: flex;
+    margin-top: 10px;
+    width: 117px;
+    height: 70px;
+    margin-left: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #655F5F;
+}
+.caja4_IMC{
+    margin-top: 50px;
+    margin-left: 24px;
+    width: 338px;
+    height: 277px;
+    background-color: #ffffff;
+    border-radius: 71px 71px 0px 0px;
+}
+.CajaTexto4{
+    margin-left: 34px;
+    width: 265px;
+    height: 137px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #A8A8A8;
+}
+.b_IMC{
+    margin-top: 48px;
+    margin-left: 82px;
+    width: 168px;
+    height: 39px;
+    border: none;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, #BFF098 0%, #72FF6F 100%);
+    border-radius: 24.5px;
+    color: #FFFFFF;
+}
+/*****************************************/
+/*Sección IMCinfo*/
+
+.contenedor1_ImcInfo{
+    width: 375px;
+    height: 667px;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+
+.Cabecera1-IMCinfo{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+
+    width: 375px;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ham{
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+.ham span{
+    display: none;
+    display: block;
+    background-color:grey;
+    height: 3px;
+    width: 28px;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+.enlaces-menu{
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;  
+    align-items: center; 
+    height: 39vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: none;
+    margin-top: 57px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 30px 0px;
+    border: mediumturquoise;
+
+}
+.enlaces-menu li{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    padding: 0 5px;
+    list-style-type: none;
+    transition: 0.3s;
+}
+.enlaces-menu li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #797979;
+    font-size: 20px;
+}
+.enlaces-menu li:hover{
+    background-color:mediumturquoise;
+}
+.enlaces-menu.activado{
+    display: flex;
+}
+
+.Mascarrila-covid1{
+    margin-top: 6px;
+    width: 33px;
+    height: 33px;
+    margin-left: 130px;
+}
+.caja1_IMCinfo{
+    display: flex;
+    margin-top: 46px;
+    width: 175px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 0px 71px 71px 0px; 
+}
+.CajaTexto1info{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 31px;
+    width: 150px;
+    height: 35px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #A8A8A8;
+}
+.img1info{
+    width: 41px;
+    height: 21px;
+}
+.caja2_IMCinfo{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 200px;
+    width: 175px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 71px 0px 0px 71px;
+}
+.CajaTexto2info{
+    display: flex;
+    margin-top: 31px;
+    margin-left: 10px;
+    width: 150px;
+    height: 35px;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #A8A8A8;
+}
+.caja3_IMCinfo{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 85px;
+    width: 211px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 71px 71px 71px 71px;
+}
+.CajaTexto3info{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 80px;
+    width: 150px;
+    height: 60px;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #655F5F;
+}
+
+.caja4_IMCinfo{
+    display: flex;
+    margin-top: 50px;
+    width: 245px;
+    height: 80px;
+    background-color: #ffffff;
+    border-radius: 0px 71px 71px 0px;
+}
+.CajaTexto4info{
+    display: flex;
+    margin-left: 45px;
+    margin-top: 31px;
+    width: 200px;
+    height: 35px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #A8A8A8;
+}
+.b_IMCinfo{
+    margin-top: 48px;
+    margin-left: 100px;
+    width: 168px;
+    height: 39px;
+    border: none;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, #BFF098 0%, #72FF6F 100%);
+    border-radius: 24.5px;
+    color: #FFFFFF;
+}
+/****************************/
+/* Seccion IMC-Que es */
+.contenedor1_IMCQueEs{
+    width: 375px;
+    height: 667px;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.CajaTexto1_QueEs{
+    margin-top: 35px;
+    margin-left: 12px;
+    width: 350px;
+    height: 53px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.CajaIMC_QueEs{
+    display: flex;
+    margin-top: 82px;
+    margin-left: 13px;
+    width: 349px;
+    height: 427px;
+    border-radius: 46px 46px 0px 0px;
+    background-color: #ffffff;
+}
+.Cajatexto2_QueEs{
+    margin-top: 77px;
+    margin-left: 39.5px;
+    width: 270px;
+    height: 160px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #A8A8A8;
+}
+/*******************************/
+/* Seccion de calculadora*/
+
+.result{
+
+    margin-top: 20px;
+    align-items: center;
+    width: 349px;
+    height: 424.5px;
+    border-radius: 5px;
+    font: italic 1.5rem serif;
+    background: #ffffff;
+    color: rgb(97, 79, 15);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+    margin-left: -41px;
+    
+  }
+  .result.activado{
+      display: flex;
+  }
+  .contenedor1_calcu{
+    width: 375px;
+    height: 667px;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.section-test{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
+    margin: auto;
+    margin-top: 0rem;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.test-img{
+    display: block;
+    width: 100%;
+    height: 17.9rem;
+    background-image: url(../img/testimcimg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0rem;
+}
+.test-contenido{
+    width: 100%;
+    height: auto;
+    background-color: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: -2rem;
+    border-radius: 3rem;
+    padding: 2rem;
+}
+
+
+.sect_form{
+    width:  37.5rem;
+    margin: auto;
+}
+
+.img_de_2{
+    width: 100%;
+    height: 22.7rem;
+}
+.fondo_1:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+}
+.nom_1{
+    width: 25.5rem;
+    height: 5.8rem;
+    position: absolute;
+    margin-left:7rem;
+    margin-top:-14rem ;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.nom_1 p{
+    text-align: center;
+    font-size: var(--subtitulo);
+    padding-top: 1rem;
+    color: #FFFFFF;
+}
+.sect_fo_v{
+    width: 37.5rem;
+    height: 50rem;
+    position:absolute;
+    background-color:#FFFFFF;
+    border-radius: 50px 50px 0px 0px;
+}
+.login{
+    width: 37rem;
+    height: auto;
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.primero{
+    margin-top: 5rem;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column; 
+    color: #A8A8A8;
+    font-family: 'Roboto', sans-serif;
+}
+.segundo,.tercero{
+    margin-top: 2rem;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    color: #A8A8A8;
+    font-family: 'Roboto', sans-serif;
+}
+.Edad,.PesoA {
+    max-width: 35rem;
+    height: 4.5rem;
+    padding: 1rem;
+    outline: none;
+    font-size: var(--parrafp);
+    margin-top: 1.2rem;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.Altura1 {
+    max-width: 35rem;
+    height: 4.5rem;
+    padding: 1rem;
+    outline: none;
+    font-size: var(--parrafp);
+    margin-top: 1.2rem;
+    margin-bottom: 3.5rem;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.bot{
+    width: 17.4rem;
+    height: 4.4rem;
+    border: none; 
+    margin: auto;
+    background: linear-gradient(180deg, #BFF098 0%, #72FF6F 100%);
+    cursor: pointer;
+    outline: none;
+    border-radius: 100px;
+}
+.bot p{
+    padding: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+/* Cuadros de respuestas*/
+.mensaje{
+    width: 37.5rem;
+    margin-left: -2.2rem;
+}
+.mensaje:empty {
+    display: none;
+  }
+
+.Pri_imc,.Pri_imc_3,.Pri_imc_4,.Pri_imc_5,.Pri_imc_2{
+    width: 35rem;
+    height: 3rem;
+    margin: auto;
+    border-radius: 100px;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-top: 3rem;
+    padding:0.5rem ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.img_imc_1,.img_imc_2,.img_imc_3,.img_imc_4{
+    width: 17.7rem;
+    height: 17.7rem;
+    margin-left: 9rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+
+}
+.info_2{
+    width: 31.6rem;
+    height: 2.1rem;
+    margin-top: 2rem;
+    
+    margin-left: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: var(--parrafp);
+    color: #6D6D6D;
+}
+.info_1,.info_3,.info_4{
+    width: 31.6rem;
+    height: 2.1rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: var(--parrafp);
+    color: #6D6D6D;
+}
+.list_1,.list_2,.list_3,.list_4{
+    width: 17.4rem;
+    height: 4.4rem;
+    margin-top: 3rem;
+    margin-left: 9.5rem;
+    text-align: center;
+    list-style: none;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #BFF098 0%, #72FF6F 100%);
+    font-size: 24px;
+    padding: 1rem;
+}
+.list_1 a,.list_2 a,.list_3 a,.list_4 a{
+    color: #FFFFFF;
+}
+.for_1_imc,.for_2_imc,.for_3_imc,.for_4_imc{
+    width: 37.5rem;
+    height: 10rem;
+    margin-top: 3rem;
+}
+
+.contenedor1_calcu{
+    width: 375px;
+    height: 667px;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.CajaTexto1_Calcu{
+    margin-top: 20px;
+    margin-left: 12px;
+    width: 350px;
+    height: 137px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*********************************/
+/* Seccion de bajopesoform*/
+.contenedor1_BajoPeso{
+    width: 375px;
+    height: 667px;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.CajaTexto1_BajoP{
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    margin-left: 65px;
+    width: 253px;
+    height: 60px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.CajaImagen_BajoP{
+    width: 305px;
+    height: 273px;
+    margin-left: -30px;
+    margin-top: -25px;
+}
+.CajaImagen_BajoP2{
+    width: 16px;
+    height: 16px;
+    margin-top: -90px;
+}
+.CajaImagen_BajoP3{
+    width: 279px;
+    height: 29px;
+    margin-left: -18.5px;
+    margin-top: 20px;
+}
+.cajaT_BajoP{
+    margin-top: 275px;
+    margin-left: 12.5px;
+    width: 350px;
+    height: 226px;
+    background-color: #FFFFFF;
+    border-radius: 41px 41px 0px 0px;
+
+}
+.Cajabotones{
+    margin-left: 130px;
+    width: 100px;
+    height: 40px;
+    flex-direction: column;
+}
+.btn1{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    background: #C4C4C4;
+}
+.btn2{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    background: #C4C4C4;
+}
+.btn3{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    background: #C4C4C4;
+}
+.CajaTexto2_BajoP{
+    margin-left: 44px;
+    width: 265px;
+    height: 137px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #A8A8A8;
+}
+/*************************************/
+/*Seccion de saludableform*/
+.contenedor1_Saludable{
+    width: 375px;
+    height: 667px;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.CajaTexto1_SaluD{
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    margin-left: 65px;
+    width: 253px;
+    height: 60px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.CajaImagen_SaluD{
+    width: 179px;
+    height: 183px;
+    margin-left: 35px;
+}
+.CajaImagen_SaluD2{
+    width: 16px;
+    height: 16px;
+    margin-left: 75px;
+    margin-top: -27px;
+}
+.CajaImagen_SaluD3{
+    width: 279px;
+    height: 29px;
+    margin-left: -18.5px;
+    margin-top: 20px;
+}
+.cajaT_SaluD{
+    margin-top: 275px;
+    margin-left: 12.5px;
+    width: 350px;
+    height: 226px;
+    background-color: #FFFFFF;
+    border-radius: 41px 41px 0px 0px;
+}
+.CajaTexto2_SaluD{
+    margin-left: 34px;
+    width: 265px;
+    height: 137px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #A8A8A8;
+}
+/*********************************/
+/*Seccion de sobrepesoForm*/
+.contenedor1_Sobrepeso{
+    width: 375px;
+    height: 667px;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.CajaTexto1_SobreP{
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    margin-left: 65px;
+    width: 253px;
+    height: 60px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.CajaImagen_SobreP{
+    width: 350px;
+    height: 350px;
+    margin-left: -48px;
+    margin-top: -77px;
+}
+.CajaImagen_SobreP2{
+    width: 16px;
+    height: 16px;
+    margin-left: 150px;
+    margin-top: -90px;
+}
+.CajaImagen_SobreP3{
+    width: 279px;
+    height: 29px;
+    margin-left: -18.5px;
+    margin-top: 20px;
+}
+.cajaT_SobreP{
+    margin-top: 275px;
+    margin-left: 12.5px;
+    width: 350px;
+    height: 226px;
+    background-color: #FFFFFF;
+    border-radius: 41px 41px 0px 0px;
+}
+.CajaTexto2_SobreP{
+    margin-left: 34px;
+    width: 265px;
+    height: 137px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #A8A8A8;
+}
+/******************************************************/
+/*Seccion Noticias*/
+.Contenedor1_Noticias{
+    width: 375px;
+    height: auto;
+    background: rgb(71,241,139);
+    background: linear-gradient(180deg, rgba(71,241,139,1) 12%, rgba(111,220,255,1) 90%);
+}
+.Cabecera1-covid-quees{
+    width: 375px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.Mascarrila-covid-quees{
+    width: 33px;
+    height: 33px;
+    margin-left: 171px;
+}
+.Personas-masc{
+    width: 375px;
+    height: 190px;
+}
+.Titulo-N{
+    width: 177px;
+    height: 84px;
+    margin: auto;
+    font-size: 64px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.GobiernoG{
+    width: 221px;
+    height: 100px;
+    margin-left: 70px;
+}
+.Texto-N{
+    width: 303px;
+    height: 147px;
+    margin: auto;
+    text-align: center;
+    font-size: 21px;
+    color: #FFFFFF;
+    margin-top: 26px;
+}
+.SJDD{
+    width: 258px;
+    height: 146px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+/*************************************/
+/* sección de obesidad */
+.contenedor1_Obesidad{
+    width: 375px;
+    height: 667px;
+    background: rgb(91,188,255);
+    background: linear-gradient(0deg, rgba(91,188,255,0.7287289915966386) 13%, rgba(48,255,0,0.30575980392156865) 100%);
+}
+.CajaTexto1_Obe{
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+    margin-left: 65px;
+    width: 253px;
+    height: 60px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.CajaImagen_Obe{
+    width: 350px;
+    height: 350px;
+    margin-left: -48px;
+    margin-top: -5px;
+}
+.CajaImagen_Obe2{
+    width: 16px;
+    height: 16px;
+    margin-left: 215px;
+    margin-top: -45px;
+}
+.CajaImagen_Obe3{
+    width: 279px;
+    height: 29px;
+    margin-left: -25px;
+    margin-top: 20px;
+}
+.cajaT_Obe{
+    margin-top: 275px;
+    margin-left: 12.5px;
+    width: 350px;
+    height: 226px;
+    background-color: #FFFFFF;
+    border-radius: 41px 41px 0px 0px;
+}
+.CajaTexto2_Obe{
+    margin-left: 34px;
+    width: 265px;
+    height: 137px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #A8A8A8;
+}
