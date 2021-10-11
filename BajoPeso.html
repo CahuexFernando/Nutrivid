@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" href="css/test.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -18,7 +17,7 @@
 </head>
 <body>
 
-    <section class="contenedor1_BajoPeso">
+    <section class="contenedor1_calcu">
         <nav class="Cabecera1-IMCinfo">
           
             <ul class="enlaces-menu">
@@ -35,32 +34,34 @@
 <div class="Mascarrila-covid1">
     <a href="inicio.html"><img src="https://images-ext-1.discordapp.net/external/kEjIqYep-vWvFEv_pU682FROGXQdJDEkB7p-gQEfWzc/https/i.imgur.com/OhLEYRz.png" alt=""></div></a>
         </nav>
-            <div class="CajaTexto1_BajoP">
-                <p>Resultados</p>
-                <div class="CajaImagen_BajoP">
-                    <img src="https://images-ext-2.discordapp.net/external/027VF7NEX6od4CUFqoMYF9qKnX72Kn90XLF5mbLk0aU/https/i.imgur.com/46I32ys.png">
-                </div>
-                <div class="CajaImagen_BajoP2">
-                    <img src="https://images-ext-2.discordapp.net/external/d4GIGkk_AhkhSu5p5ENQgCDNs6e3JyvvmtY1v5dMcnQ/https/i.imgur.com/2bnD2qK.png">
-                </div>
-                <div class="CajaImagen_BajoP3">
-                    <img src="https://images-ext-2.discordapp.net/external/xwyLTkcgxSb_TCu_AAVW30vLQLzR_bRwK-3UlbcZJds/https/i.imgur.com/hzTeIVB.png">
-                </div>
-            </div>
-            <div class="cajaT_BajoP">
-                <div class="Cajabotones">
-                    <button class="btn1" id="btn1"></button>
-                    <button class="btn2" id="btn2"></button>
-                    <button class="btn3" id="btn3"></button>
-
-                </div>
-                <div class="CajaTexto2_BajoP">
-                    <p id="text00">
-                        IMC: 16.4 Bajo peso </br> Peso deseable:51.2 - 69.12 Kg </br> Total gasto calórico:2863 Kcal </br> Dieta indicada:2863 Kcal
-                    </p>
-                </div> 
+            <div class="CajaTexto1_Calcu">
+                <p>Hora de </br> calcular tu IMC</p>
             </div>
 
+        <div class="sect_fo_v">
+            <form  class="login"  id="boton">
+        
+                <label class="primero" for="edad"> ¿Cuál es tu edad?
+                  <input type="text" name="edad" 
+                  class="Edad" id="Edad">
+                </label>
+       
+                <label class="segundo" for="peso"> ¿Cuál es tu peso? (kg)
+                   <input type="text" name="peso" 
+                   class="PesoA" id="PesoA">
+                 </label>
+       
+                 <label class="tercero" for="altura"> ¿Cuál es tu altura? (Cm)
+                   <input type="text" name="altura" 
+                   class="Altura1" id="Altura1">
+                 </label>
+       
+                 <button class="bot"> <p>Enviar</p> </button >
+                  <div class="mensaje" id="respuestas"><p></p>´
+                    
+               </form>
+        </div>
+        
     </section>
 
     <script src="js/imc.js"></script>
