@@ -1,9 +1,28 @@
+var btn_seccion1 = document.querySelector("#From_1");
+var cajaresultado = document.querySelector("#Cuadro_resultado");
+/*Botones */
+
+
+var seccion1 = document.querySelector("#siguiente_resultado");
+function caja(){
+
+    btn_seccion1.classList.add("activar");
+  
+}
+caja();
+
+    seccion1.addEventListener("click", function(elEvento){
+        elEvento.preventDefault();
+        btn_seccion1.classList.remove("activar");
+        cajaresultado.classList.add("activar");
+})
+
 function TestCovid(e){
     e.preventDefault();
 
     
     var contador = 0;
-    var porcentaje = 7.69230769231;
+    var porcentaje = 25;
 
 
     if(document.getElementById('cbox1').checked){
@@ -16,18 +35,6 @@ function TestCovid(e){
         contador=contador+porcentaje;      
     }
     if(document.getElementById('cbox4').checked){
-        contador=contador+0;      
-    }
-    if(document.getElementById('cbox5').checked){
-        contador=contador+porcentaje;      
-    }
-    if(document.getElementById('cbox6').checked){
-        contador=contador+porcentaje;      
-    }
-    if(document.getElementById('cbox7').checked){
-        contador=contador+porcentaje;      
-    }
-    if(document.getElementById('cbox8').checked){
         contador=contador+0;      
     }
     var resultado = document.querySelector("#resultado"); 
@@ -48,5 +55,5 @@ function TestCovid(e){
             }
         }
 }
-var boton = document.querySelector("#flex13");
+var boton = document.querySelector("#siguiente_resultado");
 boton.addEventListener("click", TestCovid);

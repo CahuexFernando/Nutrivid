@@ -22,52 +22,55 @@
                 <img src="https://cdn.discordapp.com/attachments/748542917366513774/892064716598427738/NobQR30__3_-removebg-preview_2.png" alt=""></div>
             <div class="ayuda"><p>?</p></div>
             </div>
-        <div class="img-preguntas-covid"><img src="https://media.discordapp.net/attachments/748542917366513774/894808321905807360/7eebda3a7b8a364f633616300e1d6ae7-removebg-preview.png" alt=""></div>
-        <div class="Titulo-preguntas-covid"><p>TEST COVID-19</p><div class="linea-Titulo"></div></div>
-
-            <div class="pregunta" id="pre1">¿Presencia de tos?</div></br>
+            <div class="img-preguntas-covid"><img src="https://media.discordapp.net/attachments/748542917366513774/894808321905807360/7eebda3a7b8a364f633616300e1d6ae7-removebg-preview.png" alt=""></div>
+            <div class="Titulo-preguntas-covid"><p>TEST COVID-19</p><div class="linea-Titulo"></div></div>
             
-
-            <input class="textoP-1" type="radio" name="sintomas" id="cbox1" value="s1" checked>
-            <label class="textoP1" for="sintoma1">Si</label></br>
-
-            <input  class="textoP-1" type="radio" name="sintomas" id="cbox2" value="s1">
-            <label class="textoP1" for="sintoma2">No</label></br>
-
-
-            <input class="textoP-2" type="radio" name="sintomas" id="cbox3" value="s1">
-            <label class="textoP2" for="sintoma4">Si</label></br>
-
-            <input  class="textoP-2" type="radio" name="sintomas" id="cbox4" value="s1">
-            <label class="textoP2" for="sintoma5">No</label></br>
-
-
-            <input class="textoP-3" type="radio" name="sintomas" id="cbox5" value="s1">
-            <label class="textoP3" for="sintoma7">Si</label></br>
-
-            <input  class="textoP-3" type="radio" name="sintomas" id="cbox6" value="s1">
-            <label class="textoP3" for="sintoma8">No</label></br>
-
-            <input class="textoP-3" type="radio" name="sintomas" id="cbox7" value="s1">
-            <label class="textoP3" for="sintoma7">Si</label></br>
-
-            <input  class="textoP-4" type="radio" name="sintomas" id="cbox8" value="s1">
-            <label class="textoP4" for="sintoma8">No</label></br>
-
-
-
-            <div class="flechas1">
-                <button class="fle1" id="fle12" >
-                    <img src="https://images-ext-1.discordapp.net/external/CN5ebETNLSAvUXOuyfgiBmw1cFvEFk1_jTBS6w8RFcs/https/i.imgur.com/iByatqf.png">
-                </button>
-                <button class="fle2" id="fle13">
-                    <img src="https://images-ext-2.discordapp.net/external/0XaGhOGz2re6Gw0qiECZIpeOo5htmz-cfna_Bb9zcdY/https/i.imgur.com/cMBlxFF.png">
-                </button>
-
+            <section class="From_1" id="From_1">
+                <form class="Primero_test_1" id="boton_1">
+                    <label class="primero_1" for="pregunta">
+                        Elige uno de estas opciones relacionadas con el covid-19 para determinar si estas contagiado o no 
+                    </label>
+                    <div class="test_cuadro_1">
+        
+                        <label >
+                            <input type="checkbox" id="cbox1"  > 
+                            <div class="Cuadro_calor1">Presencia de tos</div>
+                        </label>
+                           
+                        <label>
+                            <input type="checkbox" id="cbox2"  > 
+                            <div class="Cuadro_calor2">Presencia de cansancio</div>
+                        </label>
+        
+                        <label>
+                            <input type="checkbox" id="cbox3"  > 
+                            <div class="Cuadro_calor3">Perdida de olfato</div>
+                        </label>
+                        <label>
+                            <input type="checkbox" id="cbox4"  > 
+                            <div class="Cuadro_calor4">Presencia de fiebre</div>
+                        </label>
+                    </div>
+        
+                    <div class="boton_siguiente" id="siguiente_resultado">
+                        <p>Ver probabilidad</p>
+                    </div>
+                </form>
+            
+               <section class="Cuadro_resultado" id="Cuadro_resultado">
+                
+                <div class="cuadro_blanco">
+                    <div class="blanco_resultado">
+                    <p>Resultado</p>
+                    </div>
+                    <div class="blanco_res">
+                      <a href="TestCovidPreguntas.html"> <button class="bblanco1"> Repetir</button></a>
+                       <a href="RecomendacionCovid.html"> <button class="bblanco2" > Recomendaciones</button> </a>
+                    </div>
+                     <div class="resultado" id="resultado"> 
+                     </div>
             </div>
-            
-            <div class="linea-Texto"></div>
-            <scrip src="js/covid.js"></scrip>
+            <script src="js/covid.js"></script>
             
     </section>
 </body>

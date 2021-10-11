@@ -283,8 +283,8 @@ section{
 .Contenedor1_Preguntas_covid{
     width: 375px;
     height: 667px;
-    background: rgb(240,109,219);
-    background: linear-gradient(180deg, rgba(240,109,219,1) 0%, rgba(240,109,219,1) 21%, rgba(111,229,255,1) 74%);
+    background: rgb(71,241,139);
+    background: linear-gradient(180deg, rgba(71,241,139,1) 12%, rgba(111,220,255,1) 90%);
 }
 .Cabecera1-preguntas-covid{
     width: 375px;
@@ -327,78 +327,214 @@ section{
     margin-top: 35px;
 }
 
-.textoP-1{
-    width: 80px;
-    height: 22px;
-    margin-top: 20px;
-    display: none;
+/*Cuadros de preguntas */
 
+.primero_1{
+    width: 30rem;
+    height: 8.4rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    position: absolute;
+    font-size:21px;
+    color: #6D6D6D;
+    text-align: center;
 }
-.textoP1{
-    width: 250px;
-    height: 20px;
-    margin-left: 15px;
-    color: #ffffff;
-    font-size: 20px;
-    display: none;
+.test_cuadro_1{
+    width: 100%;
+    margin-top:15rem ;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
 }
-.textoP-2{
-    width: 80px;
-    height: 22px;
-    margin-top: 20px;
-    display: none;
+.Cuadro_calor1{
+    position: absolute;
+    width: 17rem;
+    height: 4.2rem;   
+    margin: auto;
+    left: 5px;
+    border: 1px solid #828282;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 21px;
+}
+.Cuadro_calor2{
+    position: absolute;
+    left: 200px;
+    width: 17rem;
+    height: 4.2rem;   
+    margin: auto;
+    border: 1px solid #828282;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 21px;
+}
 
+.Cuadro_calor3{
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    width: 17rem;
+    height: 4.2rem;   
+    margin: auto;
+    border: 1px solid #828282;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 21px;
 }
-.textoP2{
-    width: 250px;
-    height: 20px;
-    margin-left: 15px;
-    color: #ffffff;
-    font-size: 20px;
+
+.Cuadro_calor4{
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    width: 17rem;
+    height: 4.2rem;   
+    margin: auto;
+    border: 1px solid #828282;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 21px;
+}
+input[type=checkbox]{
     display: none;
 }
-.textoP-3{
-    width: 80px;
-    height: 22px;
-    margin-top: 20px;
+.boton_siguiente{
+    width: 17rem;
+    height: 4.4rem;
+    margin-top: 27rem;
+    position: absolute;
+    text-align: center;
+    padding: 1rem;
+    background: #F9897C;
+    border-radius: 100px;
+    margin-left: 10rem;
+    cursor: pointer;
+    
 }
-.textoP3{
-    width: 250px;
-    height: 20px;
-    margin-left: 15px;
-    color: #ffffff;
-    font-size: 20px;
+.boton_siguiente p{
+    font-size: 24px;
+    color: #FFFFFF;
 }
-.textoP-4{
-    width: 80px;
-    height: 22px;
-    margin-top: 20px;
+/*Programación*/
+.Cuadro_resultado{
     display: none;
 }
-.textoP4{
-    width: 250px;
-    height: 20px;
-    margin-left: 15px;
-    color: #ffffff;
-    font-size: 20px;
-    display: none;
+.cuadro_blanco{
+    width: 37.5rem;
+    height: 60rem;
+    margin: auto;
+    background: rgb(71,241,139);
+    background: linear-gradient(180deg, rgba(71,241,139,1) 12%, rgba(111,220,255,1) 90%);
+    position:absolute;
+    top:-28.3rem;
+    justify-content: center;
 }
-.flechas1{
-    width: 120px;
-    height: 35px;
-    margin-left: 130px;
+.resultado{
+    width: 29rem;
+    height: 10rem;
+    margin-top:1rem;
+    margin-left: 1.6rem;
+    text-align: center;
+    position: absolute;
+    font-size: 24px;
 }
-.fle1{
-    background-color: transparent;
-    border: none;
+.blanco_resultado{
+    position: absolute;
+    width: 293px;
+    height: 82px;
+    left: 41px;
+    top: 110px;
+
+    background: #FFFFFF;
+    border-radius: 71px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+
+    color: #655F5F;
+}
+.blanco_res{
+    position: absolute;
+    top: 357px;
+    left: 42px;
+    width: 293px;
+    height: 260px;
+    background-color: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+}
+.bblanco1{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 217px;
+    height: 49px;
+
+
+
+    background: linear-gradient(180deg, #9F98F0 0%, #6FCBFF 100%);
+    border-radius: 24.5px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
     cursor: pointer;
 }
-.fle2{
-    background-color: transparent;
-    border: none; 
-    margin-left: 75px;
+.bblanco2{
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    width: 217px;
+    height: 49px;
     cursor: pointer;
+
+
+    background: linear-gradient(180deg, #9F98F0 0%, #6FCBFF 100%);
+    border-radius: 24.5px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
 }
+
+
+/*Cuadros */
+
+input:checked + div {
+    background-color: coral;
+  }
+
+.activar{
+  display: block;
+}
+.desactivar{
+    display: none;
+}
+
+
+
+
+
 
 /************************************************/
 /* Seccion Sintomas */
